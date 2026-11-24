@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello from a Docker container - Version 1</h1><p>Built by AWS CodeBuild, stored in Amazon ECR - Arnav Gandhi</p>"
+    return "<h1>Hello from a Docker container - Version 2</h1><p>Built by AWS CodeBuild, stored in Amazon ECR - Arnav Gandhi</p>"
 
 
 @app.route("/health")
